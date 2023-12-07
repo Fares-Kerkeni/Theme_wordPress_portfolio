@@ -25,3 +25,4 @@ function gkp_insert_css_in_head() {
     wp_register_style('style', get_bloginfo( 'Theme_wordPress_portfolio/wp-content/themes/Virtuosefolio/styles/header.css' ),'',false,'screen');
     wp_enqueue_style( 'style' );
 }
+add_theme_support( 'post-thumbnails' );
